@@ -20,7 +20,7 @@ public class AppTest {
 	           driver.manage().window().maximize();
 	   }
 	      
-	   @ Test(groups= {"Modulue 2"})
+	   @ Test(groups= {"Modulue 1"})
 	   public void mainnncall()
 	   {
 	           System.setProperty("webdriver.chrome.driver", "C:\\selenium\\chromedriver_win32 (1)\\chromedriver.exe");  
