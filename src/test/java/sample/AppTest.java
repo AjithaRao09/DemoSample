@@ -1,9 +1,8 @@
 package sample;
 
-import javax.swing.plaf.synth.SynthOptionPaneUI;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class AppTest {
@@ -18,9 +17,10 @@ public class AppTest {
 	           driver.navigate().to("https://www.phptravels.net/home"); 
 	           System.out.println("Modulue1");
 	           driver.manage().window().maximize();
+	          
 	   }
 	      
-	   @ Test(groups= {"Modulue1"})
+	   @ Test(groups= {"Modulue2"})
 	   public void mainnncall()
 	   {
 	           System.setProperty("webdriver.chrome.driver", "C:\\selenium\\chromedriver_win32 (1)\\chromedriver.exe");  
