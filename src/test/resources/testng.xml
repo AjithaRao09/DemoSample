@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Suite" parallel ="none">
   <test name="Test">
-    <classes>
-      <class name="DemoSample.AppTest"/>
+   <groups>
+  <run>
+  <include name="Modulue1"></include>
+  </run>
+  </groups>
+     <classes>
+      <class name="sample.AppTest"/>
       
     </classes>
   </test>
