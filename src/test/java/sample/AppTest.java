@@ -25,7 +25,7 @@ public class AppTest {
 	   {
 	           System.setProperty("webdriver.chrome.driver", "C:\\selenium\\chromedriver_win32 (1)\\chromedriver.exe");  
 	           //IE,Firefox,Chrome,safari
-	           System.out.println("modulue2");
+	           System.out.println("modulue1 - method2");
 	           WebDriver driver=new ChromeDriver(); 
 	           driver.navigate().to("https://www.phptravels.net/home"); 
 	           driver.manage().window().maximize();
