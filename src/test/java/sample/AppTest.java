@@ -1,5 +1,7 @@
 package sample;
 
+import javax.swing.plaf.synth.SynthOptionPaneUI;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
@@ -14,6 +16,7 @@ public class AppTest {
 	           System.out.println("Modulue1");
 	           WebDriver driver=new ChromeDriver(); 
 	           driver.navigate().to("https://www.phptravels.net/home"); 
+	           System.out.println("Modulue1");
 	           driver.manage().window().maximize();
 	   }
 	      
