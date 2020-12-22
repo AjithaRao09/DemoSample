@@ -17,6 +17,8 @@ public class AppTest {
 	           driver.navigate().to("https://www.phptravels.net/home"); 
 	           System.out.println("Modulue1");
 	           driver.manage().window().maximize();
+	           
+	           driver.quit();
 	          
 	   }
 	      
