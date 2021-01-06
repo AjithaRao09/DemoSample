@@ -31,6 +31,8 @@ public class AppTest {
 	           WebDriver driver=new ChromeDriver(); 
 	           driver.navigate().to("https://www.phptravels.net/home"); 
 	           driver.manage().window().maximize();
+	           driver.quit();
+
 	   }
 	      
 

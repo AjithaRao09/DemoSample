@@ -4,11 +4,12 @@
    <groups>
   <run>
   <include name="Modulue1"></include>
+  <include name="Modulue2"></include>
   </run>
   </groups>
      <classes>
-      <class name="sample.AppTest"/>
-      
+      <class name="sample.AppTest"/>      
     </classes>
+  
   </test>
 </suite>
